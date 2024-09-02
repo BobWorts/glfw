@@ -3,8 +3,8 @@
     language "C"
     staticruntime "off"
     
-    targetdir ("bin/%{cfg.buildcfg}/%{prj.name}")
-    objdir ("bin-int/%{cfg.buildcfg}/%{prj.name}")
+    targetdir ("build/%{cfg.buildcfg}/")
+    objdir ("%{wks.location}/Intermediate/ThirdParty/%{prj.name}")
     
     files
     {
