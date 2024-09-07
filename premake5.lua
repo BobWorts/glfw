@@ -3,8 +3,8 @@
     language "C"
     staticruntime "on"
     
-    targetdir ("build/%{cfg.buildcfg}/")
-    objdir ("%{wks.location}/Intermediate/ThirdParty/%{prj.name}")
+    targetdir "build/%{cfg.buildcfg}/"
+    objdir "%{wks.location}/Intermediate/ThirdParty/%{prj.name}"
     
     files
     {
